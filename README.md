@@ -20,4 +20,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$isaac_sim_package_path/exts/omni.isaac.
 $isaac_sim_package_path/isaac-sim.sh
 ```
 
+정상적으로 연결된 경우
+![image](https://github.com/MinchangSung0223/IsaacSim_ROS2_foxy_Setting_with_XENOMAI/assets/53217819/09c75628-8b17-49a1-98a4-e6776bf83a3d)
+
+
+ROS Bridge Extension에 omni.isaac.ros2_bridge를 선택가능 실행시 예제에 ROS예제 추가됨.
+![image](https://github.com/MinchangSung0223/IsaacSim_ROS2_foxy_Setting_with_XENOMAI/assets/53217819/333487e8-fd05-40a6-810d-33fe312ded69)
+
+
 
