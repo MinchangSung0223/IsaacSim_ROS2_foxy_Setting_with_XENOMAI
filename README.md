@@ -28,4 +28,15 @@ ROS Bridge Extension에 omni.isaac.ros2_bridge를 선택가능 실행시 예제�
 ![image](https://github.com/MinchangSung0223/IsaacSim_ROS2_foxy_Setting_with_XENOMAI/assets/53217819/333487e8-fd05-40a6-810d-33fe312ded69)
 
 
+Ubuntu 20.04의 경우 기본 python3.8이며 Isaac sim의 ros2를 사용하기 위해서는 python3.10을 사용해야만한다.
+
+## 6. Python 3.10 설치
+
+python은 ROS설치 시에 충돌 가능성이 있으므로 ROS설치 후에 설치하는 것을 추천.
+
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10 python3.10-venv python3.10-dev
+```
+## 7. Isaac
 
